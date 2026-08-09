@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.claude/
+
+# data/*.db KHONG bi ignore nua - repo can co san du lieu de Streamlit Cloud
+# hien thi duoc ngay sau deploy (dia cua Streamlit Cloud la ephemeral).
+# GitHub Actions se fetch + commit lai file nay dinh ky, xem .github/workflows/
